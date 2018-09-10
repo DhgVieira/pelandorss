@@ -1,0 +1,24 @@
+{
+  "name": "rss",
+  "version": "1.0.0",
+  "description": "rss ofertas",
+  "author": "Dhiego Vieira",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "feedparser": "^2.2.9",
+    "html-parser": "^0.11.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "rss-feed-emitter": "^2.0.0",
+    "striptags": "^3.1.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

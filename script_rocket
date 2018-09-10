@@ -1,0 +1,43 @@
+/* exported Script */
+/* globals console, _, s */
+
+/** Global Helpers
+ *
+ * console - A normal console instance
+ * _       - An underscore instance
+ * s       - An underscore string instance
+ */
+
+class Script {
+  /**
+   * @params {object} request
+   */
+  process_incoming_request({ request }) {
+    // console is a global helper to improve debug
+    return {
+      "content": {
+        "text": request.content.text,
+        "attachments": [
+          {
+            "color": request.content.attachments[0].color,
+            "author_name": "Oferteiro",
+            "author_icon": request.content.attachments[0].icon,
+            "title": request.content.attachments[0].title,
+            "title_link": request.content.attachments[0].title_link,
+            "text": request.content.attachments[0].text,
+            "image_url": request.content.attachments[0].image_url,
+            "thumb_url": request.content.attachments[0].thumb
+          }
+        ]
+      }
+ 	 };
+
+
+    // return {
+    //   error: {
+    //     success: false,
+    //     message: 'Error example'
+    //   }
+    // };
+  }
+}
