@@ -14,7 +14,7 @@
     "dotenv": "^6.0.0",
     "feedparser": "^2.2.9",
     "html-parser": "^0.11.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "moment": "^2.22.2",
     "request": "^2.88.0",
     "rss-feed-emitter": "^2.0.0",
