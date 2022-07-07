@@ -15,7 +15,7 @@
     "feedparser": "^2.2.9",
     "html-parser": "^0.11.0",
     "lodash": "^4.17.10",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "request": "^2.88.0",
     "rss-feed-emitter": "^2.0.0",
     "striptags": "^3.1.1",
